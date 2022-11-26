@@ -1,3 +1,3 @@
 # Mempool
 
-This is a template containing basic setup for streaming tx from mempool on EVM Chains
+This is a template bot containing basic setup for streaming txs from mempool on EVM Chains
