@@ -1,0 +1,34 @@
+{
+  "name": "mempool",
+  "version": "0.1.0",
+  "description": "This is a bot for monitoring the mempool on EVM networks.",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "author": {
+    "name": "Dennoh Peter",
+    "email": "mail@dennohpeter.com"
+  },
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "keywords": [
+    "mempool",
+    "ethereum",
+    "bot"
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.2"
+  }
+}
